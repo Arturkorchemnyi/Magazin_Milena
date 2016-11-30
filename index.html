@@ -18,7 +18,7 @@
 							интернет-магазин<br/>женской одежды
 						</li>
 						<li>
-							<a href="#" class="basket"><span class="fs18">255</span> товаров<br/>на сумму <span class="fs18">800 000</span> грн.</a>
+							<a href="#" class="basket"><span class="fs18">255</span> товаров<br/>на сумму <span class="fs16">800 000</span> грн.</a>
 						</li>
 					</ul>
 					<div class="info_block">
@@ -29,8 +29,41 @@
 						</ul>
 						<span class="tel">+380 50 555-5555</span>
 						<ul class="registretion">
-							<li><a href="#">Войти</a></li>
-							<li><a href="#">Зарегистрироваться</a></li>
+							<li>
+								<a href="#">Войти</a>
+								<div class="pop_up enter">
+									<h2 class="pop_title">Вход в интернет-магазин</h2>
+									<span class="close"></span>
+									<form action="#">
+										<input type="emeil" name="emeil" placeholder="Электронная почта">
+										<input type="password" name="password" placeholder="Пароль">
+										<input type="submit" id="sub_enter" value="Войти">
+										<label>
+											<input type="checkbox">
+											Запомнить меня
+										</label>
+
+									</form>
+									<a href="#" class="restore_password">Восстановить пароль</a>
+								</div>
+							</li>
+							<li>
+								<a href="#">Зарегистрироваться</a>
+								<div class="pop_up">
+									<h2 class="pop_title">регистрация</h2>
+									<span class="close"></span>
+									<form action="#">
+										<input type="text" name="name" placeholder="Ваше имя*">
+										<input type="emeil" name="emeil" placeholder="Электронная почта*">
+										<input type="password" name="password" placeholder="Ваш будущий пароль*">
+										<input type="submit" value="Зарегистрироваться">
+										<label>
+											<input type="checkbox">
+											пользовательское<br/>соглашение
+										</label>
+									</form>
+								</div>
+							</li>
 						</ul>
 					</div>
 				</header>
@@ -42,7 +75,7 @@
 			<div class="wrapper">
 				<nav>
 					<ul>
-						<li><a href="#">Главна</a></li>
+						<li><a href="#">Главная</a></li>
 						<li><a href="#">О фирме</a></li>
 						<li>
 							<a href="#">Каталог</a>
@@ -113,22 +146,22 @@
 					<div class="sb_block size">
 						<h3 class="title">Размер</h3>
 						<ul>
-							<li><label><input type="checkbox" name="31" value="31" checked> 31</label></li>
+							<li><label><input type="checkbox" name="30" value="30" checked> 30</label></li>
+							<li><label><input type="checkbox" name="32" value="31"> 31</label></li>
 							<li><label><input type="checkbox" name="32" value="32"> 32</label></li>
 							<li><label><input type="checkbox" name="33" value="33"> 33</label></li>
+						</ul>
+						<ul>
 							<li><label><input type="checkbox" name="34" value="34"> 34</label></li>
-						</ul>
-						<ul>
-							<li><label><input type="checkbox" name="35" value="35"> 35</label></li>
-							<li><label><input type="checkbox" name="36" value="36" checked> 36</label></li>
+							<li><label><input type="checkbox" name="35" value="35" checked> 35</label></li>
+							<li><label><input type="checkbox" name="36" value="36"> 36</label></li>
 							<li><label><input type="checkbox" name="37" value="37"> 37</label></li>
-							<li><label><input type="checkbox" name="38" value="38"> 38</label></li>
 						</ul>
 						<ul>
-							<li><label><input type="checkbox" name="39" value="39" checked> 39</label></li>
+							<li><label><input type="checkbox" name="38" value="38" checked> 38</label></li>
+							<li><label><input type="checkbox" name="39" value="39"> 39</label></li>
 							<li><label><input type="checkbox" name="40" value="40"> 40</label></li>
 							<li><label><input type="checkbox" name="41" value="41"> 41</label></li>
-							<li><label><input type="checkbox" name="42" value="42"> 42</label></li>
 						</ul>
 					</div>
 					<div class="sb_block price">
@@ -150,8 +183,8 @@
 					<div class="sb_block material">
 						<h3 class="title">Материал</h3>
 						<ul>
-							<li><label><input type="checkbox" name="wool" value="wool"> Шерсть</label></li>
-							<li><label><input type="checkbox" name="cotton" value="cotton"> Подкладка хлопок</label></li>
+							<li><label><input type="checkbox" name="wool" value="wool"> шерсть</label></li>
+							<li><label><input type="checkbox" name="cotton" value="cotton"> подкладка хлопок</label></li>
 						</ul>
 					</div>
 					<div class="sb_block color">
