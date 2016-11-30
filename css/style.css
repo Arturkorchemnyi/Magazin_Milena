@@ -107,25 +107,25 @@ header {
 	letter-spacing: 0.4px;
 }
 
-.registretion li {
+.registration li {
 	float: right;
 	margin-left: 7px;
 	margin-bottom: 12px;
 	margin-top: -1px;
 }
 
-.registretion li:first-child {
+.registration li:first-child {
 	border-left: 1px solid #90989c;
 	padding-left: 8px;
 }
 
-.registretion li a {
+.registration li a {
 	color: #90989c;
 	font-size: 12px;
 	text-decoration: underline;
 }
 
-.registretion {
+.registration {
 	position: relative;
 }
 
