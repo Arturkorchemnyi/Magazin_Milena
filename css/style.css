@@ -504,7 +504,7 @@ li.active {
 	border: 1px solid #6b8492;
 	box-shadow: 0 0 7px #6b8492;
 	cursor: pointer;
-	background: url(../img/basket_price.png) no-repeat 136px 267px;
+	background: url(../img/basket_price.png) no-repeat  92% 96%;
 }
 
 .products_list>li:hover img,
@@ -612,6 +612,73 @@ footer a {
 	margin: 20px 0 6px 11px;
 }
 		/*FOOTER END*/
+
+
+
+@media (max-width: 320px) {
+	
+
+	.wrapper,
+	.sidebar,
+	.right_col,
+	.products_list>li>img {
+		width: 100%;
+	}
+	
+	body, footer {
+		background: #fff;
+	}
+
+	header, .search_block {
+		display: none;
+	}
+
+	nav {
+		background: #1c1c1c;
+	}
+
+	nav>ul>li:first-child {
+    	margin-left: 0;
+	}
+
+	nav>ul>li {
+		width: 33.33%;
+	}
+	
+	.right_col {
+		margin-right: 0;
+	}
+
+	.seasons li,
+	.color li,
+	.material li,
+	.shares_novelty li,
+	.size ul {
+		width: 29%;
+		margin-left: 8px;
+	}
+	
+	
+	.products_list>li {
+		width: 48%;
+		margin: 0 1% 2% 0;
+	}
+	.pager {
+		bottom: -35px;
+		width: 100%;
+		left: 0;
+	}
+	.pager li {
+		margin: 0px -6px 0 0;
+	}
+
+	.footer {
+		border-top: 1px solid #000;
+	}
+
+	
+}
+
 
 	/*CLEARFIX*/
 header:after,
